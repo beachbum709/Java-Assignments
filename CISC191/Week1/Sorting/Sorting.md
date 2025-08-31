@@ -1,6 +1,6 @@
 # H1 Sorting Code:
 
-`java`
+```java
 import java.util.Scanner;
 
 
@@ -39,3 +39,4 @@ class Sorting {
         scanner.close();
     }
 }
+```
