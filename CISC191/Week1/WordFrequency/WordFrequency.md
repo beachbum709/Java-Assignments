@@ -28,6 +28,8 @@ public class WordFrequency {
             if (count[i] != 0)
                 System.out.println(words[i] + " " + count[i]);
         }
+
+        scanner.close();
     }
 
     public static void getWordFrequency(String[] wordArr, int[] countArr){
@@ -43,5 +45,6 @@ public class WordFrequency {
         }
     }
 }
+
 
 ```
