@@ -1,4 +1,4 @@
-# H1 Sorting Code:
+# Sorting Code:
 
 ```java
 import java.util.Scanner;
