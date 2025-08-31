@@ -8,7 +8,7 @@ While I had a good amount of ideas of how I wanted to approach this project, I c
 My main challenge was understanding how the sorting algorithm worked. Everything else was just a refresher from the previous java class I had just taken. Also getting the whole github setup was a process on its own that i had never done.
 
 # 4
-ADD LINK HERE
+https://youtu.be/h0q3q2yMo8E
 
 
 
