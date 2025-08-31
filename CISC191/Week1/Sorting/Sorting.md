@@ -1,4 +1,19 @@
-# Sorting Code:
+# 1
+Flowchart has been uploaded as a png in the folder containing this file.
+
+# 2
+While I had a good amount of ideas of how I wanted to approach this project, I chose the bubble sorting algorithm you mentioned in the assignment text. I was unfamiliar with it so it gave me a new challenge.
+
+# 3
+My main challenge was understanding how the sorting algorithm worked. Everything else was just a refresher from the previous java class I had just taken. Also getting the whole github setup was a process on its own that i had never done.
+
+# 4
+ADD LINK HERE
+
+
+
+# 5
+## Sorting Code:
 
 ```java
 import java.util.Scanner;
