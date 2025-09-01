@@ -1,10 +1,14 @@
 # 1
+flowchart is in the current directory.
 
 # 2
+I would scrape the html code. Using regex and a similar algorithm I would filter out all the boilerplate code and count word frequencies. While i feel my current code isnt the best at performance I feel it could do the job. 
 
 # 3
+I had issues with the end of the program and printing out the frequency values. I couldnt just simply loop through the word array and print out corresponding frequency values. I had to print out the values then replace all remaining duplicates with a space. That way I could filter out the duplicates that existed in the array after they had been counted.
 
 # 4
+https://youtu.be/7MqR-3-ACbs
 
 # 5
 ## Code:
