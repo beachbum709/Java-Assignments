@@ -11,40 +11,46 @@
 ```java
 import java.util.Scanner;
 
-
-public class WordFrequency {
+public class WordFrequency{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your words: ");
-        String input = scanner.nextLine();
-        String[] words = input.split("\\s+");
-        for (int i = 0; i < words.length; i++) {
-            words[i] = words[i].replaceAll("[^\\w]", "");
-        }
-        int[] count = new int[words.length];
-        getWordFrequency(words, count);
-        System.out.println("\n");
-        for (int i = 0; i < count.length; i++){
-            if (count[i] != 0)
-                System.out.println(words[i] + " " + count[i]);
+        String[] wordArray = new String[20];
+        int i = 0;
+        do{
+            System.out.print("Please enter a word (type 'stop' to finish): ");
+            String nextword = scanner.nextLine().trim();
+            if (nextword.equalsIgnoreCase("stop")){
+                break;
+            }else{
+                wordArray[i] = nextword;
+            }
+            i++;
+        }while(i<20);
+
+        for (String word : wordArray){
+            if (word != null && word != " "){
+                int frequency = getWordFrequency(wordArray, 0, word);
+                System.out.println(word + " " + frequency);
+            }
         }
 
         scanner.close();
     }
+    
+    
+    public static int getWordFrequency(String[] wordsList, int listSize, String currWord){
+        int frequency = 0;
 
-    public static void getWordFrequency(String[] wordArr, int[] countArr){
-        countArr[0] = 1;
-        for (int i = 1, j = 0; i < wordArr.length; i++) {
-            if (wordArr[j].equals(wordArr[i])) {
-                countArr[j]++;
-            } else {
-                j++;
-                wordArr[j] = wordArr[i];
-                countArr[j] = 1;
+        int i = 0;
+        for (String word : wordsList){
+            if (currWord.equals(wordsList[i])){
+                frequency++;
+                wordsList[i] = " ";
             }
+            i++;
         }
+        return frequency;
     }
 }
-
 
 ```
