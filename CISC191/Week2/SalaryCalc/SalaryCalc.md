@@ -1,7 +1,8 @@
 # What were your challenges in performing the lab?
-* Answer
+* I have always struggled with how to apply Constuctors in the past. It was challenging to use them again but i felt that doing task A first and then moving onto taks B really put into perspective how to use constructors effectively. Overloading constructors seems to be a more effecient way of providing the user a way to set private variables on construction as opposed to constrcuting and then using a setter method.
 
 # Video
+* https://youtu.be/ZdNUz6DWplo
 
 # Task 1
 
