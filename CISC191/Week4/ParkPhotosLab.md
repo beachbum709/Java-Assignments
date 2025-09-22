@@ -6,7 +6,7 @@
 
 # 3
 
-* video link
+* https://youtu.be/YXuydwIipt4
 
 # 4
 ## Java Code
