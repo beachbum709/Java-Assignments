@@ -5,7 +5,7 @@
 * I honestly didnt have much challenge with this lab. As soon as I read the Deque class functions i knew exactly what to do. Actually implementing took some time but I was able to wrap my head around it fairly quickly. I think this lab could benefit from giving the student the option to choose which collection class theyd like to use. 
 
 # 3
-* Link here
+* https://www.youtube.com/watch?v=htakfj0FIjE
 
 # 4
 
