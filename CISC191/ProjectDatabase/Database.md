@@ -1,5 +1,8 @@
 # I noticed what to submit was different this time around. Only code and video are required. If anything else is needed please let me know.
 
+## Video
+* https://www.youtube.com/watch?v=6CC0IxvSaXI
+
 ```java
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
